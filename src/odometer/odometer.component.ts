@@ -11,14 +11,8 @@ import { Subscription } from 'rxjs/Subscription';
 import { OdometerModel } from './odometer.model';
 import { Ng2OdometerConfig, Ng2OdometerConfigModel } from './odometer.config';
 import {
-    CAR_THEME,
     DEFAULT_THEME,
-    DIGITAL_THEME,
-    MINIMAL_THEME,
-    PLAZA_THEME,
-    SLOT_MACHINE_THEME,
-    TRAIN_STATION_THEME,
- } from './themes';
+} from './themes';
 
 // HubSpot's Oodometer
 // https://github.com/HubSpot/odometer
@@ -28,13 +22,7 @@ const Odometer = require('odometer');
     selector: 'ng2-odometer',
     encapsulation: ViewEncapsulation.None,
     styles: [
-        CAR_THEME,
         DEFAULT_THEME,
-        DIGITAL_THEME,
-        MINIMAL_THEME,
-        PLAZA_THEME,
-        SLOT_MACHINE_THEME,
-        TRAIN_STATION_THEME,
         `
             .odometer,
             .odometer-inside,

@@ -97,7 +97,7 @@ The component accepts either a `[config]="{ ... }"` attribute with an object wit
 | --------------| --------- | ----------- |-------------- |
 | `animation`   | string    | 'slide'     | Animation effect type. <br> Options: 'slide', 'count'
 | `format`      | string    | '(,ddd)'    | Format to apply on the numbers. <br> Format - Example: <br> (,ddd) - 12,345,678 <br> (,ddd).dd - 12,345,678.09 <br> (.ddd),dd - 12.345.678,09 <br> ( ddd),dd - 12 345 678,09 <br> d         -  12345678
-| `theme`       | string    | 'default'   | The desired theme. <br> Options: 'default', 'minima', 'digital', 'car', 'plaza', 'slot-machine', 'train-station'
+| `theme`       | string    | 'default'   | The desired theme. <br> Options: 'default'
 | `value`       | number    | 0           | Initial value of the odometer
 | `auto`        | boolean   | true        | Setup auto or manual mode for the odometer
 
